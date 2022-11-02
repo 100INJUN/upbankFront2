@@ -1,0 +1,19 @@
+실행
+
+롬복 오류 : project > 우클릭 > Build Path에서 롬복 삭제
+
+
+정상 실행 : 웹과 Vue를 동시에 실행해야 하며 웹을 먼저 실행하고 Vue를 실행하면 리스트가 먼저 뜬다.
+
+1) 웹
+D:\Dev117\workspace\jpa-mariaDB-vuejs > JpaMariaDbVuejsApplication 우클릭 > Run As Spring Boot App
+http://localhost:8040/api/product
+
+2) Vue
+Visual Studio Code에서 
+file open > D:\Dev117\workspace\jpa-mariaDB-vuejs\front-vue 
+npm run serve
+http://localhost:8081/
+
+
+
